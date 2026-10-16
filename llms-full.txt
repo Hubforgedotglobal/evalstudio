@@ -1,0 +1,62 @@
+# EvalStudio by HubForge
+
+> Free browser-based creative tools for monitoring, evaluation, learning (MEL), research, technology and AI. Pick a template, personalise it with a live preview, and download.
+
+EvalStudio is a creative studio, not an evaluation consulting service or a general-purpose AI chatbot. HubForge is its parent ecosystem. These public pages describe real working tools; no account is required.
+
+## Studios
+- [Sticker Lab](https://studio.hubforgeglobal.com/sticker-lab/): Make personalised monitoring, evaluation and learning stickers. Choose from 32 original templates, edit your words and colours, then download PNG or SVG for free.
+- [MEL Meme Maker](https://studio.hubforgeglobal.com/meme-maker/): Create workplace-safe monitoring, evaluation and learning memes. Personalise 12 original compositions and download PNG or SVG images. No account needed.
+- [Workshop Playbox](https://studio.hubforgeglobal.com/workshop-playbox/): Make editable evaluation bingo, reflection prompts, voting cards and Theory of Change activities. Download A4 PNG or SVG pages, or print workshop materials.
+
+## Practical details
+- Editors require JavaScript. Their public studio guides do not.
+- PNG and SVG downloads are generated in the browser.
+- Workshop activities can be printed or saved as PDF through the browser print dialog.
+- Personalised text, favourites and saved creations stay on the visitor's device.
+- There is no required paid AI runtime service. The panda provides curated suggestions, not generative AI chat.
+- Downloading or sharing an image does not install a WhatsApp sticker pack.
+- My MEL Identity and Fieldwork Kit are not available editors.
+
+## Official sources
+- [Studio home](https://studio.hubforgeglobal.com/)
+- [Sitemap](https://studio.hubforgeglobal.com/sitemap.xml)
+- [Full studio reference](https://studio.hubforgeglobal.com/llms-full.txt)
+- [HubForge](https://www.hubforgeglobal.com/)
+- [HubForge Playbooks](https://playbooks.hubforgeglobal.com/)
+
+## Sticker Lab
+
+Small designs for the people asking big questions. Make stickers about research, evidence, fieldwork, responsible AI and learning together.
+
+1. Choose one of 32 original designs in six collections.
+2. Personalise the words, colours, typography and output format with a live preview.
+3. Download a PNG or SVG. Save favourites and designs in My Collection on your device.
+
+Use designs in presentations or share them as images. A downloaded image is not an automatically installed WhatsApp sticker pack.
+
+Open the editor: https://studio.hubforgeglobal.com/#/sticker-lab
+
+## MEL Meme Maker
+
+Humour from the situations evaluation teams recognise: late baselines, reporting deadlines and questions about what changed. Laugh together, not at the communities you work with.
+
+1. Choose one of 12 original editable compositions.
+2. Personalise the joke, colours and format with a live preview.
+3. Download a square or landscape PNG, or an SVG. Explicitly saved designs stay in My Collection on your device.
+
+Custom text is your responsibility. Keep jokes friendly, respectful and workplace-safe. This is a template editor, not an AI image or joke generator.
+
+Open the editor: https://studio.hubforgeglobal.com/#/meme-maker
+
+## Workshop Playbox
+
+Make evaluation workshops more participatory. Start with an activity, adapt it to your session and prepare useful materials for people to work with.
+
+1. Choose evaluation bingo, assumption challenges, reflection prompts, voting cards, Theory of Change cards or retrospective sheets.
+2. Edit the content for your group. Use facilitator guidance and choose low-ink settings when useful.
+3. Download the current page as A4 PNG or SVG, or print the activity using your browser. Save as PDF through the print dialog.
+
+A4 PNG pages are 2480 × 3508 pixels. For printing, choose A4, actual size and no margins, and disable browser headers and footers.
+
+Open the editor: https://studio.hubforgeglobal.com/#/workshop-playbox

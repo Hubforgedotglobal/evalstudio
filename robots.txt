@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+
+# Search crawlers and AI search crawlers may read our public studio guides.
+# No private saved creations are hosted here; they remain in the browser.
+Sitemap: https://studio.hubforgeglobal.com/sitemap.xml
