@@ -27,13 +27,54 @@
     <meta name="twitter:image:alt" content="EvalStudio by HubForge: free stickers, MEL memes and workshop tools." />
     <link rel="alternate" type="text/plain" href="./llms.txt" title="EvalStudio guide for AI readers" />
     <link rel="icon" type="image/svg+xml" href="./brand/evalstudio-icon.svg" />
+    <style>
+      body { margin: 0; background: #f5f1e8; }
+      .studio-startup { display: none; }
+      .studio-booting .studio-summary { display: none; }
+      .studio-booting .studio-startup {
+        min-height: 100svh; padding: 32px; display: flex; flex-direction: column;
+        align-items: center; justify-content: center; gap: 24px;
+        color: #1f1d22; background: #f5f1e8; font: 15px/1.5 system-ui, sans-serif;
+      }
+      .studio-startup img { width: 224px; max-width: 75vw; height: auto; }
+      .studio-startup p { margin: 0; }
+      .studio-startup-track { width: 100px; height: 5px; border-radius: 8px; background: #ddd6ed; overflow: hidden; }
+      .studio-startup-track::after { content: ""; display: block; width: 45%; height: 100%; background: #7b68ee; border-radius: inherit; animation: studio-boot 1.2s ease-in-out infinite alternate; }
+      @keyframes studio-boot { to { transform: translateX(120%); } }
+      @media (prefers-reduced-motion: reduce) { .studio-startup-track::after { animation: none; width: 100%; } }
+      .studio-summary { max-width: 900px; margin: auto; padding: 32px 24px; color: #1f1d22; font: 17px/1.65 system-ui, sans-serif; }
+      .studio-summary h1 { font-size: clamp(30px, 6vw, 48px); line-height: 1.15; }
+      .studio-summary a { color: #513bb8; text-underline-offset: 3px; }
+      .studio-summary li { margin-block: 12px; }
+      .studio-startup-error { display: none; }
+      .studio-load-failed .studio-startup-error { display: block; padding: 16px; border: 2px solid #7b68ee; border-radius: 12px; }
+    </style>
+    <script>
+      document.documentElement.classList.add('studio-booting');
+      function showStudioFallback() {
+        document.documentElement.classList.remove('studio-booting');
+        document.documentElement.classList.add('studio-load-failed');
+      }
+      window.addEventListener('error', function (event) {
+        if (event.target instanceof HTMLScriptElement && event.target.type === 'module') showStudioFallback();
+      }, true);
+      window.setTimeout(function () {
+        if (document.querySelector('#root > .studio-summary')) showStudioFallback();
+      }, 15000);
+    </script>
     <script type="module" crossorigin src="./assets/index-XiT5vz_N.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-qSMK9eLI.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://studio.hubforgeglobal.com/#hubforge","name":"HubForge","url":"https://www.hubforgeglobal.com/","logo":"https://studio.hubforgeglobal.com/brand/hubforge-logo.png"},{"@type":"WebSite","@id":"https://studio.hubforgeglobal.com/#website","name":"EvalStudio","alternateName":"EvalStudio by HubForge","url":"https://studio.hubforgeglobal.com/","publisher":{"@id":"https://studio.hubforgeglobal.com/#hubforge"},"inLanguage":"en"},{"@type":"WebApplication","@id":"https://studio.hubforgeglobal.com/#application","name":"EvalStudio","url":"https://studio.hubforgeglobal.com/","description":"Free browser-based creative tools for the monitoring, evaluation, research, technology and AI ecosystem.","applicationCategory":"DesignApplication","operatingSystem":"Any","browserRequirements":"JavaScript is required for interactive editors.","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://studio.hubforgeglobal.com/#hubforge"},"featureList":["Sticker Lab","MEL Meme Maker","Workshop Playbox"],"image":"https://studio.hubforgeglobal.com/social/evalstudio-preview-v1.png"},{"@type":"ItemList","name":"EvalStudio creative tools","itemListElement":[{"@type":"ListItem","position":1,"name":"Sticker Lab","url":"https://studio.hubforgeglobal.com/sticker-lab/"},{"@type":"ListItem","position":2,"name":"MEL Meme Maker","url":"https://studio.hubforgeglobal.com/meme-maker/"},{"@type":"ListItem","position":3,"name":"Workshop Playbox","url":"https://studio.hubforgeglobal.com/workshop-playbox/"}]}]}</script>
 </head>
   <body>
     <div id="root">
-      <main>
+      <div class="studio-startup" role="status" aria-label="Opening EvalStudio">
+        <img src="./brand/evalstudio-logo.svg" alt="EvalStudio" width="224" height="48" />
+        <div class="studio-startup-track" aria-hidden="true"></div>
+        <p>Opening your creative space…</p>
+      </div>
+      <main class="studio-summary">
+        <p class="studio-startup-error" role="alert">The interactive studio could not start. Please reload the page or use the studio guides below.</p>
         <h1>EvalStudio: Play. Learn. Make.</h1>
         <p>An open creative space for monitoring, evaluation, research, technology and AI. Make personalised stickers, workplace-safe MEL memes and printable workshop materials.</p>
         <p>Choose a template, personalise it, see a live preview and download. The creative tools run in your browser, with no account or paid AI service required.</p>
