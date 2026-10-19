@@ -5,6 +5,7 @@
 EvalStudio is a creative studio, not an evaluation consulting service or a general-purpose AI chatbot. HubForge is its parent ecosystem. These public pages describe real working tools; no account is required.
 
 ## Studios
+- [Identity](https://studio.hubforgeglobal.com/identity/): Make a personal evaluation or MEL identity card with your own photo, words and colours. Edit a live preview and download a social-ready PNG, without an account.
 - [Sticker Lab](https://studio.hubforgeglobal.com/sticker-lab/): Make personalised monitoring, evaluation and learning stickers. Choose from 32 original templates, edit your words and colours, then download PNG or SVG for free.
 - [MEL Meme Maker](https://studio.hubforgeglobal.com/meme-maker/): Create workplace-safe monitoring, evaluation and learning memes. Personalise 12 original compositions and download PNG or SVG images. No account needed.
 - [Workshop Playbox](https://studio.hubforgeglobal.com/workshop-playbox/): Make editable evaluation bingo, reflection prompts, voting cards and Theory of Change activities. Download A4 PNG or SVG pages, or print workshop materials.
@@ -16,7 +17,7 @@ EvalStudio is a creative studio, not an evaluation consulting service or a gener
 - Personalised text, favourites and saved creations stay on the visitor's device.
 - There is no required paid AI runtime service. The panda provides curated suggestions, not generative AI chat.
 - Downloading or sharing an image does not install a WhatsApp sticker pack.
-- My MEL Identity and Fieldwork Kit are not available editors.
+- Identity is an available editor. Fieldwork Kit is not available yet.
 
 ## Official sources
 - [Studio home](https://studio.hubforgeglobal.com/)
@@ -24,6 +25,18 @@ EvalStudio is a creative studio, not an evaluation consulting service or a gener
 - [Full studio reference](https://studio.hubforgeglobal.com/llms-full.txt)
 - [HubForge](https://www.hubforgeglobal.com/)
 - [HubForge Playbooks](https://playbooks.hubforgeglobal.com/)
+
+## Identity
+
+Express who you are, what you contribute and what matters to you in monitoring, evaluation and learning. These cards are self-expression, not verified credentials.
+
+1. Choose a style and a curated prompt, then add your own name, role and statement.
+2. Optionally add a photo, adjust the composition and colours, and preview your card.
+3. Download a feed, Story or square PNG. Save a card on this device to reopen and remake it. Keeping a photo in a saved card is optional.
+
+Photos are processed locally, not uploaded. Image sharing depends on browser support; downloading is available as an alternative. Reusable template links contain style and prompt identifiers, never personal text or portraits.
+
+Open the editor: https://studio.hubforgeglobal.com/#/identity
 
 ## Sticker Lab
 
